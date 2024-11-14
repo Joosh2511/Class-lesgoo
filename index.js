@@ -25,8 +25,9 @@ function increment() {
 }
 function save() {
     let countstr = count + "-";
-    saveEl.innerHTML = logmsg;
-    //knee
+    saveEl.innerText += countstr;
+    count = 0;
+    countEl.innerText = count; 
 
     count = 0;
 }
