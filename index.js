@@ -26,6 +26,7 @@ function increment() {
 function save() {
     let countstr = count + "-";
     saveEl.innerHTML = logmsg;
+    //knee
 
     count = 0;
 }
